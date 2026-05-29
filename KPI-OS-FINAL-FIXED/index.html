@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>KPI OS FINAL</title>
+
+<link rel="manifest" href="./manifest.json"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=LINE+Seed+Sans+TH:wght@300;400;500;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./styles/global.css"/>
+<link rel="stylesheet" href="./styles/dashboard.css"/>
+<link rel="stylesheet" href="./mobile/mobile.css"/>
+
+</head>
+
+<body>
+
+<div class="bg-gradient"></div>
+
+<div class="app-shell">
+
+<aside class="sidebar glass">
+
+<div class="logo">
+KPI OS
+</div>
+
+<nav class="nav">
+<button class="nav-btn active">Dashboard</button>
+<button class="nav-btn">Analytics</button>
+<button class="nav-btn">Realtime</button>
+<button class="nav-btn">Settings</button>
+</nav>
+
+</aside>
+
+<main class="main">
+
+<header class="topbar glass">
+
+<div>
+<h1>Realtime KPI Dashboard</h1>
+<p>Cloud Sync + Mobile Ready</p>
+</div>
+
+<div class="auth-area">
+
+<div id="user-info">
+Guest
+</div>
+
+<button id="login-btn">
+Login Google
+</button>
+
+<button id="logout-btn">
+Logout
+</button>
+
+</div>
+
+</header>
+
+<section class="hero glass">
+<h2>AI Productivity Operating System</h2>
+<p>3D Premium KPI Experience</p>
+</section>
+
+<section class="year-section glass">
+
+<div class="year-header">
+<h2>ปี 2569</h2>
+<p>KPI Tracking Dashboard</p>
+</div>
+
+<div class="month-grid">
+
+<!-- มกราคม -->
+<div class="month-card glass">
+
+<h3>มกราคม 2569</h3>
+
+<div class="month-actions">
+
+<button
+class="month-send-btn"
+data-month="มกราคม"
+data-year="2569"
+>
+ส่ง KPI
+</button>
+
+<button
+class="month-cancel-btn"
+data-month="มกราคม"
+data-year="2569"
+>
+ยกเลิกส่ง
+</button>
+
+</div>
+
+</div>
+
+<!-- กุมภาพันธ์ -->
+<div class="month-card glass">
+
+<h3>กุมภาพันธ์ 2569</h3>
+
+<div class="month-actions">
+
+<button
+class="month-send-btn"
+data-month="กุมภาพันธ์"
+data-year="2569"
+>
+ส่ง KPI
+</button>
+
+<button
+class="month-cancel-btn"
+data-month="กุมภาพันธ์"
+data-year="2569"
+>
+ยกเลิกส่ง
+</button>
+
+</div>
+
+</div>
+
+<!-- มีนาคม -->
+<div class="month-card glass">
+
+<h3>มีนาคม 2569</h3>
+
+<div class="month-actions">
+
+<button
+class="month-send-btn"
+data-month="มีนาคม"
+data-year="2569"
+>
+ส่ง KPI
+</button>
+
+<button
+class="month-cancel-btn"
+data-month="มีนาคม"
+data-year="2569"
+>
+ยกเลิกส่ง
+</button>
+
+</div>
+
+</div>
+
+<!-- เมษายน -->
+<div class="month-card glass">
+
+<h3>เมษายน 2569</h3>
+
+<div class="month-actions">
+
+<button
+class="month-send-btn"
+data-month="เมษายน"
+data-year="2569"
+>
+ส่ง KPI
+</button>
+
+<button
+class="month-cancel-btn"
+data-month="เมษายน"
+data-year="2569"
+>
+ยกเลิกส่ง
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<section class="year-section glass">
+
+<div class="year-header">
+<h2>ปี 2570</h2>
+<p>Future KPI Planning</p>
+</div>
+
+<div class="month-grid">
+
+<div class="month-card glass">
+
+<h3>มกราคม 2570</h3>
+
+<div class="month-actions">
+
+<button
+class="month-send-btn"
+data-month="มกราคม"
+data-year="2570"
+>
+ส่ง KPI
+</button>
+
+<button
+class="month-cancel-btn"
+data-month="มกราคม"
+data-year="2570"
+>
+ยกเลิกส่ง
+</button>
+
+</div>
+
+</div>
+
+<div class="month-card glass">
+
+<h3>กุมภาพันธ์ 2570</h3>
+
+<div class="month-actions">
+
+<button
+class="month-send-btn"
+data-month="กุมภาพันธ์"
+data-year="2570"
+>
+ส่ง KPI
+</button>
+
+<button
+class="month-cancel-btn"
+data-month="กุมภาพันธ์"
+data-year="2570"
+>
+ยกเลิกส่ง
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+</section>
+</div>
+
+</section>
+
+<section class="month-section glass">
+
+<div class="month-header">
+<h2>Monthly KPI Overview</h2>
+<p>รายการ KPI แยกตามเดือน</p>
+</div>
+
+<div id="monthly-kpi-list" class="month-grid">
+
+<div class="month-card glass">
+<h3>January</h3>
+<div class="month-items">ยังไม่มีข้อมูล</div>
+</div>
+
+<div class="month-card glass">
+<h3>February</h3>
+<div class="month-items">ยังไม่มีข้อมูล</div>
+</div>
+
+<div class="month-card glass">
+<h3>March</h3>
+<div class="month-items">ยังไม่มีข้อมูล</div>
+</div>
+
+<div class="month-card glass">
+<h3>April</h3>
+<div class="month-items">ยังไม่มีข้อมูล</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="kpi-container" class="kpi-grid">
+
+<div class="empty-card glass">
+Login เพื่อเริ่ม Sync KPI
+</div>
+
+</section>
+
+</main>
+
+</div>
+
+<script type="module" src="./firebase/firebase.js"></script>
+<script src="./animations/motion.js"></script>
+
+</body>
+</html>

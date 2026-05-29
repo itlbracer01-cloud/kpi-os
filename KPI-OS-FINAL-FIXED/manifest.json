@@ -1,0 +1,8 @@
+{
+  "name": "KPI OS FINAL",
+  "short_name": "KPI OS",
+  "display": "standalone",
+  "background_color": "#eef4ff",
+  "theme_color": "#2563eb",
+  "start_url": "./"
+}

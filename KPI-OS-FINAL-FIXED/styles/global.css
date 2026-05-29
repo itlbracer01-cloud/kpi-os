@@ -1,0 +1,57 @@
+
+:root{
+--primary:#2563eb;
+--bg:#eef4ff;
+--glass:rgba(255,255,255,.68);
+--text:#0f172a;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'LINE Seed Sans TH',sans-serif;
+background:linear-gradient(180deg,#edf4ff,#f8fbff);
+color:var(--text);
+min-height:100vh;
+overflow-x:hidden;
+-webkit-font-smoothing:antialiased;
+padding:20px;
+}
+
+.bg-gradient{
+position:fixed;
+inset:0;
+background:
+radial-gradient(circle at top left,rgba(96,165,250,.25),transparent 40%),
+radial-gradient(circle at bottom right,rgba(37,99,235,.18),transparent 40%);
+z-index:-1;
+animation:floatBg 10s ease-in-out infinite;
+}
+
+@keyframes floatBg{
+0%{transform:translateY(0px);}
+50%{transform:translateY(18px);}
+100%{transform:translateY(0px);}
+}
+
+.glass{
+background:var(--glass);
+backdrop-filter:blur(20px);
+border:1px solid rgba(255,255,255,.35);
+box-shadow:0 10px 40px rgba(37,99,235,.08);
+}
+
+button{
+border:none;
+cursor:pointer;
+transition:.25s ease;
+font-weight:700;
+}
+
+button:hover{
+transform:translateY(-2px);
+}
